@@ -1,0 +1,49 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+deezer-insight-angular/dist
+deezer-insight-angular/tmp
+deezer-insight-angular/out-tsc
+# Only exists if Bazel was run
+deezer-insight-angular/bazel-out
+
+# dependencies
+deezer-insight-angular/node_modules
+
+# profiling files
+deezer-insight-angular/chrome-profiler-events*.json
+
+# IDEs and editors
+deezer-insight-angular/.idea
+deezer-insight-angular/.project
+deezer-insight-angular/.classpath
+deezer-insight-angular/.c9/
+deezer-insight-angular/*.launch
+deezer-insight-angular/.settings/
+deezer-insight-angular/*.sublime-workspace
+
+# IDE - VSCode
+deezer-insight-angular/.vscode/*
+deezer-insight-angular/!.vscode/settings.json
+deezer-insight-angular/!.vscode/tasks.json
+deezer-insight-angular/!.vscode/launch.json
+deezer-insight-angular/!.vscode/extensions.json
+deezer-insight-angular/.history/*
+
+# misc
+deezer-insight-angular/.sass-cache
+deezer-insight-angular/connect.lock
+deezer-insight-angular/coverage
+deezer-insight-angular/libpeerconnection.log
+deezer-insight-angular/npm-debug.log
+deezer-insight-angular/yarn-error.log
+deezer-insight-angular/testem.log
+deezer-insight-angular/typings
+
+# System Files
+deezer-insight-angular/.DS_Store
+deezer-insight-angular/Thumbs.db
+
+# IntelliJ Files
+.idea
+
